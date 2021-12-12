@@ -1,53 +1,58 @@
+# 
+# Language-File translated by:		Gecolay、Xiaos_heng
 #
-# Language-File created by:		Gecolay
-#
-
-
-
+  
+  
+  
 Plugin:
-
-  plugin-enabled: "[P]&a The Plugin was successfully enabled."
-  plugin-link: "[P]&a Link with&6 %Link%&a successful!"
-  plugin-update: "[P]&a New Version available:&6 %NewVersion%&a!\n[P]&a You are currently running Version:&6 %Version%&a!\n[P]&a Download the latest Version at:\n[P]&6 %Path%"
-  plugin-version: "[P]&c This Plugin can not be used with this Server Version! (&b%Version%&c)"
-  plugin-disabled: "[P]&a The Plugin was successfully disabled."
+  
+  plugin-enabled: "[P]&a 插件已成功啟用"
+  plugin-link: "[P]&a 成功鏈接到&6 %Link%&a!"
+  plugin-update: "[P]&a 插件有新版本:&6 %NewVersion%&a!\n[P]&a 正在使用的版本:&6 %Version%&a!\n[P]&a 點擊下載:\n[P]&6 %Path%"
+  plugin-disabled: "[P]&a 插件已成功禁用"
   plugin-prefix: "&7[&6GSit&7]"
-
-
-
+  
+  
+  
 Messages:
-
-  command-reload: "[P]&a The Settings were successfully reloaded."
-  command-permission-error: "[P]&c You don't have Permission to use this Command!"
-  command-sender-error: "[P]&c This Sender cannot execute this Command!"
-  command-version-error: "[P]&c You can't use this Feature with this Server Version! (&b%Version%&c)"
-
-  command-gsit-toggle-on: "[P]&a You have enabled click-interactions for sit."
-  command-gsit-toggle-off: "[P]&a You have disabled click-interactions for sit."
-  command-gsit-playertoggle-on: "[P]&a You have enabled click-interactions for playersit."
-  command-gsit-playertoggle-off: "[P]&a You have disabled click-interactions for playersit."
-
-  action-sit-now-error: "[P]&c You can't sit right now!"
-  action-sit-world-error: "[P]&c You can't sit in this world!"
-  action-sit-location-error: "[P]&c You can't sit here!"
-  action-sit-safe-error: "[P]&c It's not safe to sit here!"
-  action-sit-region-error: "[P]&c You can't sit in this region!"
-  action-sit-kick-error: "[P]&c Someone is already sitting here!"
-  action-sit-info: "&aUse your&6 <translatekey:key.sneak>&a Key to get up."
-
-  action-playersit-info: "&aUse your&6 <translatekey:key.sneak>&a Key to get up."
-
-  action-pose-now-error: "[P]&c You can't pose right now!"
-  action-pose-world-error: "[P]&c You can't pose in this world!"
-  action-pose-location-error: "[P]&c You can't pose here!"
-  action-pose-safe-error: "[P]&c It's not safe to pose here!"
-  action-pose-region-error: "[P]&c You can't pose in this region!"
-  action-pose-kick-error: "[P]&c Someone is already posing here!"
-  action-pose-info: "&aUse your&6 <translatekey:key.sneak>&a Key to get up."
-
-  action-crawl-now-error: "[P]&c You can't crawl right now!"
-  action-crawl-world-error: "[P]&c You can't crawl in this world!"
-  action-crawl-region-error: "[P]&c You can't crawl in this region!"
-  action-crawl-info: "&aUse your&6 <translatekey:key.sneak>&a Key to get up."
-
-  action-blocked-error: "[P]&c You are not allowed to execute this Command right now!"
+  
+  command-reload: "[P]&a 配置重載完成"
+  command-permission-error: "[P]&c 你不能執行此命令!"
+  command-console-error: "[P]&c 此命令僅適用於玩家!"
+  
+  command-gsittoggle-on: "[P]&a 你已經可以通過右鍵來坐下了"
+  command-gsittoggle-off: "[P]&a 你已經不能通過右鍵來坐下了"
+  command-gemote-use-error: "[P]&c 指令: /emote <Emote>"
+  command-gemote-emote-error: "[P]&c 表情&6 %Emote%&c 不存在!"
+  
+  command-gseat-use-error: "[P]&c 指令: /seat give <Player> <Material> [<Amount>] [<CustomModelData>]"
+  command-gseat-give-use-error: "[P]&c 指令: /seat give <Player> <Material> [<Amount>] [<CustomModelData>]"
+  command-gseat-give-player-error: "[P]&c &6%Player%&c 不是有效的玩家!"
+  command-gseat-give-material-error: "[P]&c &6%Material%&c 不是有效的物品/方塊!"
+  command-gseat-give-amount-error: "[P]&c &b%Amount%&c 不是有效的數量!"
+  command-gseat-give-data-error: "[P]&c &b%Data%&c 不是有效的數據!"
+  
+  action-seat-name: "&c座位"
+  
+  action-sit-water-error: "[P]&c 你不能在太濕的地方坐下!"
+  action-sit-location-error: "[P]&c 你不能在這坐下!"
+  action-sit-area-error: "[P]&c 你不能在這個區域坐下!"
+  action-sit-spawn-error: "[P]&c 不能在這個區域生成實體&6 %Entity%&c!"
+  action-sit-ground-error: "[P]&c 你只能坐在地上!"
+  action-sit-already-error: "[P]&c 你已經坐下了!"
+  action-sit-safe-error: "[P]&c 你不能在不安全的地方坐下!"
+  action-sit-world-error: "[P]&c 你不能在這個世界坐下!"
+  action-sit-info: "&a使用&6 %Key%&a 鍵站起來!"
+  
+  action-posesit-location-error: "[P]&c 你不能在這躺下!"
+  action-posesit-area-error: "[P]&c 你不能在這個區域躺下!"
+  action-posesit-spawn-error: "[P]&c 不能在這個區域生成實體&6 %Entity%&c!"
+  action-posesit-ground-error: "[P]&c 你只能躺在地上!"
+  action-posesit-already-error: "[P]&c 你已經躺下了!"
+  action-posesit-world-error: "[P]&c 你不能在這個世界躺下!"
+  action-posesit-info: "&a使用&6 %Key%&a 鍵站起來!"
+  
+  action-crawl-location-error: "[P]&c 你不能在這爬行!"
+  action-crawl-world-error: "[P]&c 你不能在這個世界爬行!"
+  
+  action-blocked-error: "[P]&c 你現在不能執行此指令!"
