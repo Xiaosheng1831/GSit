@@ -1,5 +1,5 @@
 #
-# Language-File created by:		flandretw
+# Language-File created by:		XiaoSheng_Tw
 #
 
 
@@ -11,7 +11,7 @@ Plugin:
   plugin-update: "[P]&a 新版本可用:&6 %NewVersion%&a!\n[P]&a 目前使用版本:&6 %Version%&a!\n[P]&a 下载最新版本:\n[P]&6 %Path%"
   plugin-version: "[P]&c 插件與目前伺服器版本不相容! (&b%Version%&c)"
   plugin-reload: "[P]&a The plugin was successfully reloaded."
-  plugin-disabled: "[P]&a 插件已成功禁用"
+  plugin-disabled: "[P]&a 插件已成功關閉"
   plugin-prefix: "&7[&6GSit&7]"
 
 
@@ -52,12 +52,12 @@ Messages:
   action-crawl-region-error: "[P]&c 你不能在這個區域爬行!"
   action-crawl-info: "&a使用&6 <lang:key.sneak>&a 鍵起来"
 
-  action-emote-none-error: "[P]&c You're not using an emote right now!"
-  action-emote-stop-error: "[P]&c You can't stop emoting!"
-  action-emote-stop: "[P]&a You stopped emoting."
-  action-emote-exist-error: "[P]&c The Emote&6 %Emote%&c does not exist!"
-  action-emote-now-error: "[P]&c You can't emote right now!"
-  action-emote-world-error: "[P]&c You can't emote in this world!"
-  action-emote-region-error: "[P]&c You can't emote in this region!"
+  action-emote-none-error: "[P]&c 你現在沒有做表情!"
+  action-emote-stop-error: "[P]&c 你不能停止做表情!"
+  action-emote-stop: "[P]&a 你停止了做表情."
+  action-emote-exist-error: "[P]&c 表情&6 %Emote%&c 不存在!"
+  action-emote-now-error: "[P]&c 你現在不能做表情!"
+  action-emote-world-error: "[P]&c 你不能在這個世界做表情!"
+  action-emote-region-error: "[P]&c 你不能在這個區域做表情!"
 
   action-blocked-error: "[P]&c 你現在不能使用此指令!"
